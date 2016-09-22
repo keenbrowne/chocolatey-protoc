@@ -8,9 +8,9 @@
     <owners>keen jordigg</owners>
     <licenseUrl>https://raw.githubusercontent.com/google/protobuf/master/LICENSE</licenseUrl>
     <projectUrl>https://developers.google.com/protocol-buffers/</projectUrl>
-	<packageSourceUrl>https://github.com/keenbrowne/chocolatey-protoc</packageSourceUrl>
+    <packageSourceUrl>https://github.com/keenbrowne/chocolatey-protoc</packageSourceUrl>
     <docsUrl>https://developers.google.com/protocol-buffers/</docsUrl>
-	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>### Overview
 Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. You can find protobuf's documentation on the Google Developers site.
 
