@@ -1,4 +1,4 @@
 Install-ChocolateyZipPackage 'protoc' `
- 'https://github.com/google/protobuf/releases/download/v3.0.2/protoc-3.0.2-win32.zip' `
+ 'https://github.com/google/protobuf/releases/download/v3.1.0/protoc-3.1.0-win32.zip' `
  "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" `
- -checksum '08684D8AA40D75A1328E26DE885AF662' -checksumType 'md5'
+ -checksum 'E46B3B7C5C99361BBDD1BBDA93C67E5CBF2873B7098482D85FF8E587FF596B23' -checksumType 'sha256'
