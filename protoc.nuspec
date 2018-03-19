@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>protoc</id>
-    <version>3.1.0</version>
+    <version>3.5.1</version>
     <title>Protocol Buffers</title>
     <authors>Google</authors>
     <owners>keen jordigg</owners>
