@@ -1,18 +1,28 @@
 <?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>protoc</id>
-    <version>2.6.1</version>
-    <title>Protocol Compiler</title>
-    <authors>google</authors>
-    <owners>keen</owners>
+    <version>3.8.0</version>
+    <title>Protocol Buffers</title>
+    <authors>Google</authors>
+    <owners>keen jordigg</owners>
     <licenseUrl>https://raw.githubusercontent.com/google/protobuf/master/LICENSE</licenseUrl>
     <projectUrl>https://developers.google.com/protocol-buffers/</projectUrl>
+    <packageSourceUrl>https://github.com/keenbrowne/chocolatey-protoc</packageSourceUrl>
+    <docsUrl>https://developers.google.com/protocol-buffers/</docsUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Protocol Compiler compiles Google protocol buffer .proto files. Protocol buffers are a flexible, efficient, automated mechanism for serializing structured data.</description>
-    <summary>protoc compiler compiled by google using mingw</summary>
-    <releaseNotes>https://groups.google.com/forum/#!msg/protobuf/jKhb4_5Xhec/14AMJyoKryIJ</releaseNotes>
-    <copyright>Copyright 2014</copyright>
+    <description>### Overview
+Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. You can find protobuf's documentation on the Google Developers site.
+
+This README file contains protobuf installation instructions. To install protobuf, you need to install the protocol compiler (used to compile .proto files) and the protobuf runtime for your chosen programming language.
+
+    </description>
+    <summary>Google's data interchange format</summary>
+    <releaseNotes>- Updated to latest version</releaseNotes>
+    <copyright>Copyright 2016</copyright>
     <tags>protoc protobuf</tags>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
